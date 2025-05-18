@@ -27,7 +27,7 @@ public class Test1 {
                 System.out.println("消费到消息了" + message.getMsg());
             }
         }).start();
-
+        new Thread().interrupt();
     }
 }
 
